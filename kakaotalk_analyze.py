@@ -82,7 +82,7 @@ class ChatParser:
         return df
 
 class ChatAnalyzerApp:
-    ADMIN_PASSWORD = "qkchEkr"
+    ADMIN_PASSWORD = ""
 
     def __init__(self, root):
         self.root = root
@@ -363,4 +363,5 @@ if __name__ == "__main__":
     
     root = tk.Tk()
     app = ChatAnalyzerApp(root)
+
     root.mainloop()
